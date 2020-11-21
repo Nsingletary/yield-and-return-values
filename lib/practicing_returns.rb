@@ -6,7 +6,7 @@ def hello(array)
     yield(array[i])
     i += 1
   end
-end
-
+  collection
+end 
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
